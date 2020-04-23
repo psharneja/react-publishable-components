@@ -1,0 +1,39 @@
+{
+  "name": "react-publishable-component",
+  "version": "1.0.9",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack",
+    "prepublish": "npm run build"
+    },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psharneja/react-publishable-component"
+  },
+  "author": "Prabhsimran Singh <psharneja@gmail.com> (http://psharneja.github.io/)",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "style-loader": "^1.1.2",
+    "url-loader": "^3.0.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "peerDependencies": {
+    "react": "^16.12.0"
+  }
+}
